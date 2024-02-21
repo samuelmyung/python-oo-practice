@@ -24,7 +24,8 @@ class WordFinder:
 
 class SpecialWordFinder(WordFinder):
     '''Special Word Finder: finds random words from a text file but ignores comments and whitespace'''
-    # Don't need init either
+    # Don't need init either, it gets inherited from parent class unless you need to add or
+    # remove from the init params
     # def __init__(self, file_path):
     #     '''Create a list of words from a filepath'''
     #     super().__init__(file_path)
